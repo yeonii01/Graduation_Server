@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\GameServer">
+      <UniqueIdentifier>{2098deb9-1028-41d7-af3a-96c5e61b080e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\DB">
+      <UniqueIdentifier>{f1db3b90-aeec-471a-bde0-7e6cf7390493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Event">
+      <UniqueIdentifier>{f697392d-b7c8-4cb0-90d1-ec2f97550632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network">
+      <UniqueIdentifier>{779505cd-56a9-48f6-b32c-e99cd5cbb751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network\Exp_Over">
+      <UniqueIdentifier>{4ce52ec6-5033-4cbe-8860-6d4eecb80cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Network\Session">
+      <UniqueIdentifier>{b296838e-69f2-4616-913a-05a2c08d85c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{dfa7d202-27e5-4b56-8ff7-d8dff7933f53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Npc">
+      <UniqueIdentifier>{7c56eb47-b5f8-4711-a996-7dedf7fbc89e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Player">
+      <UniqueIdentifier>{bea9ebf4-5eb7-4494-8963-8bb4a7d9c41c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Packet">
+      <UniqueIdentifier>{187ac103-debf-4fdb-afb8-932e6569cc17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Sector">
+      <UniqueIdentifier>{c8467b4b-e4d4-4781-966e-1e1766528393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Default">
+      <UniqueIdentifier>{92bac625-2121-4fa5-8157-862f10d767a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameServer.cpp">
+      <Filter>소스 파일\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="DBConnect.cpp">
+      <Filter>소스 파일\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Event.cpp">
+      <Filter>소스 파일\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Exp_Over.cpp">
+      <Filter>소스 파일\Network\Exp_Over</Filter>
+    </ClCompile>
+    <ClCompile Include="Session.cpp">
+      <Filter>소스 파일\Network\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>소스 파일\Object\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>소스 파일\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Sector.cpp">
+      <Filter>소스 파일\Sector</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\Default</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameServer.h">
+      <Filter>소스 파일\GameServer</Filter>
+    </ClInclude>
+    <ClInclude Include="DBConnect.h">
+      <Filter>소스 파일\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Event.h">
+      <Filter>소스 파일\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Exp_Over.h">
+      <Filter>소스 파일\Network\Exp_Over</Filter>
+    </ClInclude>
+    <ClInclude Include="Session.h">
+      <Filter>소스 파일\Network\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>소스 파일\Object\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>소스 파일\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Sector.h">
+      <Filter>소스 파일\Sector</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="protocol.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

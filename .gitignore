@@ -1,3 +1,6 @@
+*.sln
+*.ipch
+
 # Prerequisites
 *.d
 
