@@ -3,40 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Packet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Packet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\protocol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\protocol.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Sector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Sector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Sector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Sector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Packet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Packet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Packet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Packet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Player.cpp||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Player.cpp||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\DBConnect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\DBConnect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Npc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Npc.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Npc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Npc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Exp_Over.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Exp_Over.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Exp_Over.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Exp_Over.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Session.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Session.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\GameServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\GameServer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\GameServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\GameServer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\stdafx.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Event.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Event.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Event.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Event.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\DBConnect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\DBConnect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\DBConnect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\DBConnect.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Session.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\Session.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\stdafx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60997218-6DF0-4C87-B6BC-2EB2BBD35152}|Server\\Server.vcxproj|solutionrelative:Server\\stdafx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,127 +82,243 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
+              "Title": "GameServer.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\GameServer.cpp",
+              "RelativeDocumentMoniker": "Server\\GameServer.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\GameServer.cpp",
+              "RelativeToolTip": "Server\\GameServer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-05T11:07:40.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Event.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Event.h",
+              "RelativeDocumentMoniker": "Server\\Event.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Event.h",
+              "RelativeToolTip": "Server\\Event.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-05T11:07:09.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Event.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Event.cpp",
+              "RelativeDocumentMoniker": "Server\\Event.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Event.cpp",
+              "RelativeToolTip": "Server\\Event.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-05T11:07:09.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "GameServer.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\GameServer.h",
+              "RelativeDocumentMoniker": "Server\\GameServer.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\GameServer.h",
+              "RelativeToolTip": "Server\\GameServer.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-05T10:59:09.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "stdafx.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\stdafx.cpp",
+              "RelativeDocumentMoniker": "Server\\stdafx.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\stdafx.cpp",
+              "RelativeToolTip": "Server\\stdafx.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T06:04:25.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DBConnect.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\DBConnect.h",
+              "RelativeDocumentMoniker": "Server\\DBConnect.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\DBConnect.h",
+              "RelativeToolTip": "Server\\DBConnect.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvygAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-04T06:04:24.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Packet.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Packet.h",
               "RelativeDocumentMoniker": "Server\\Packet.h",
               "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Packet.h",
               "RelativeToolTip": "Server\\Packet.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxUAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-04T05:35:04.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Packet.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Packet.cpp",
               "RelativeDocumentMoniker": "Server\\Packet.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Packet.cpp",
               "RelativeToolTip": "Server\\Packet.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEQAAAA1AAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAEoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-04T05:33:32.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "DBConnect.cpp",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\DBConnect.cpp",
               "RelativeDocumentMoniker": "Server\\DBConnect.cpp",
               "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\DBConnect.cpp",
               "RelativeToolTip": "Server\\DBConnect.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB4AAAAnAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD4AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-07-04T05:20:39.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "GameServer.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\GameServer.cpp",
-              "RelativeDocumentMoniker": "Server\\GameServer.cpp",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\GameServer.cpp",
-              "RelativeToolTip": "Server\\GameServer.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T05:20:35.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "stdafx.h",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\stdafx.h",
-              "RelativeDocumentMoniker": "Server\\stdafx.h",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\stdafx.h",
-              "RelativeToolTip": "Server\\stdafx.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-04T04:53:13.765Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Sector.h",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Sector.h",
-              "RelativeDocumentMoniker": "Server\\Sector.h",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Sector.h",
-              "RelativeToolTip": "Server\\Sector.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-07-04T04:52:44.862Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Sector.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Sector.cpp",
-              "RelativeDocumentMoniker": "Server\\Sector.cpp",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Sector.cpp",
-              "RelativeToolTip": "Server\\Sector.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T04:52:44.242Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\main.cpp",
-              "RelativeDocumentMoniker": "Server\\main.cpp",
-              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\main.cpp",
-              "RelativeToolTip": "Server\\main.cpp",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAAAF4AAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-04T04:02:39.387Z",
               "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Player.cpp",
+              "RelativeDocumentMoniker": "Server\\Player.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Player.cpp",
+              "RelativeToolTip": "Server\\Player.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-05T11:10:03.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Player.h",
+              "RelativeDocumentMoniker": "Server\\Player.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Player.h",
+              "RelativeToolTip": "Server\\Player.h",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-05T11:10:44.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Session.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Session.h",
+              "RelativeDocumentMoniker": "Server\\Session.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Session.h",
+              "RelativeToolTip": "Server\\Session.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-05T11:01:54.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Npc.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Npc.h",
+              "RelativeDocumentMoniker": "Server\\Npc.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Npc.h",
+              "RelativeToolTip": "Server\\Npc.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-05T10:57:34.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Npc.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Npc.cpp",
+              "RelativeDocumentMoniker": "Server\\Npc.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Npc.cpp",
+              "RelativeToolTip": "Server\\Npc.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-05T10:57:10.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Session.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Session.cpp",
+              "RelativeDocumentMoniker": "Server\\Session.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Session.cpp",
+              "RelativeToolTip": "Server\\Session.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T06:04:20.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Exp_Over.cpp",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Exp_Over.cpp",
+              "RelativeDocumentMoniker": "Server\\Exp_Over.cpp",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Exp_Over.cpp",
+              "RelativeToolTip": "Server\\Exp_Over.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T06:04:18.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Exp_Over.h",
+              "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Exp_Over.h",
+              "RelativeDocumentMoniker": "Server\\Exp_Over.h",
+              "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\Exp_Over.h",
+              "RelativeToolTip": "Server\\Exp_Over.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-04T06:04:18.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "protocol.h",
               "DocumentMoniker": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\protocol.h",
               "RelativeDocumentMoniker": "Server\\protocol.h",
               "ToolTip": "C:\\Users\\USER\\Desktop\\HyeYeon\\Graduation_Server\\Server\\Server\\protocol.h",
               "RelativeToolTip": "Server\\protocol.h",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADMAAAACAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-07-04T04:53:46.38Z",
               "EditorCaption": ""

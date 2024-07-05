@@ -16,14 +16,18 @@ constexpr char CS_CHAT = 3;
 constexpr char CS_ATTACK = 4;			
 constexpr char CS_CHAR_SELECT = 5;
 constexpr char CS_LOGOUT = 6;			
+constexpr char CS_ANIMATION = 7;
+constexpr char CS_LOOK_DIRECTION = 8;
 
-constexpr char SC_LOGIN_INFO = 7;
-constexpr char SC_LOGIN_FAIL = 8;
-constexpr char SC_ADD_OBJECT = 9;
-constexpr char SC_REMOVE_OBJECT = 10;
-constexpr char SC_MOVE_OBJECT = 11;
-constexpr char SC_CHAT = 12;
-constexpr char SC_STAT_CHANGE = 13;
+constexpr char SC_LOGIN_INFO = 9;
+constexpr char SC_LOGIN_FAIL = 10;
+constexpr char SC_ADD_OBJECT = 11;
+constexpr char SC_REMOVE_OBJECT = 12;
+constexpr char SC_MOVE_OBJECT = 13;
+constexpr char SC_CHAT = 14;
+constexpr char SC_STAT_CHANGE = 15;
+constexpr char SC_ANIMATION = 16;
+constexpr char SC_LOOK_DIRECTION = 17;
 
 #pragma pack (push, 1)
 struct CS_LOGIN_PACKET {				//Try login
@@ -60,6 +64,18 @@ struct CS_CHAR_SELECT_PACKET {			//Character Select
 struct CS_LOGOUT_PACKET {				//Logout
 	char	size;
 	char	type;
+};
+
+struct CS_ANIMATION_PACKET {			//animation
+	char	size;
+	char	type;
+	int		animation_type;
+};
+
+struct CS_LOOK_DIRECTION {				//look direction
+	char	size;
+	char	type;
+	//수정
 };
 
 struct SC_LOGIN_INFO_PACKET {			//Login Success
@@ -110,10 +126,25 @@ struct SC_CHAT_PACKET {					//Player Chat
 struct SC_STAT_CHANGE_PACKET {			//Chat
 	char	size;
 	char	type;
+	int		id;
 	int		hp;
 	int		max_hp;
 	int		exp;
 	int		level;
+};
+
+struct CS_ANIMATION_PACKET {			//animation
+	char	size;
+	char	type;
+	int		id;
+	int		animation_type;
+};
+
+struct CS_LOOK_DIRECTION {				//look direction
+	char	size;
+	char	type;
+	int		id;
+	//수정
 };
 
 #pragma pack (pop)

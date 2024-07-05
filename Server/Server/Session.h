@@ -11,9 +11,8 @@ public:
 	void do_send(void* packet, int packet_size);
 
 public:
-	int					_id;
-	SOCKET				_client;
-	int					_remain_data;
-	Exp_Over			_exp_over;
+	int					m_iId;
+	SOCKET				m_sClient;
+	int					m_iRemain_data;
+	Exp_Over			m_eExp_over;
 };
-

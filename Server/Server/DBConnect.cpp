@@ -1,10 +1,10 @@
 #include "DBConnect.h"
 #include "Player.h"
 
-thread_local SQLHANDLE DBConnect::_henv = SQL_NULL_HANDLE;
-thread_local SQLHANDLE DBConnect::_hdbc = SQL_NULL_HANDLE;
-thread_local SQLHANDLE DBConnect::_hstmt = SQL_NULL_HANDLE;
-thread_local SQLRETURN DBConnect::_retcode;
+thread_local SQLHANDLE DBConnect::m_henv = SQL_NULL_HANDLE;
+thread_local SQLHANDLE DBConnect::m_hdbc = SQL_NULL_HANDLE;
+thread_local SQLHANDLE DBConnect::m_hstmt = SQL_NULL_HANDLE;
+thread_local SQLRETURN DBConnect::m_retcode;
 
 DBConnect::DBConnect()
 {
@@ -38,61 +38,61 @@ bool DBConnect::Connect()
 {
 	setlocale(LC_ALL, "korean");
 
-	_retcode = SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &_henv);
-	if (_retcode != SQL_SUCCESS && _retcode != SQL_SUCCESS_WITH_INFO)
+	m_retcode = SQLAllocHandle(SQL_HANDLE_ENV, SQL_NULL_HANDLE, &m_henv);
+	if (m_retcode != SQL_SUCCESS && m_retcode != SQL_SUCCESS_WITH_INFO)
 		return false;
 
-	_retcode = SQLSetEnvAttr(_henv, SQL_ATTR_ODBC_VERSION, (SQLPOINTER*)SQL_OV_ODBC3, 0);
-	if (_retcode != SQL_SUCCESS && _retcode != SQL_SUCCESS_WITH_INFO)
+	m_retcode = SQLSetEnvAttr(m_henv, SQL_ATTR_ODBC_VERSION, (SQLPOINTER*)SQL_OV_ODBC3, 0);
+	if (m_retcode != SQL_SUCCESS && m_retcode != SQL_SUCCESS_WITH_INFO)
 		return false;
 
-	_retcode = SQLAllocHandle(SQL_HANDLE_DBC, _henv, &_hdbc);
-	if (_retcode != SQL_SUCCESS && _retcode != SQL_SUCCESS_WITH_INFO)
+	m_retcode = SQLAllocHandle(SQL_HANDLE_DBC, m_henv, &m_hdbc);
+	if (m_retcode != SQL_SUCCESS && m_retcode != SQL_SUCCESS_WITH_INFO)
 		return false;
 
-	SQLSetConnectAttr(_hdbc, SQL_LOGIN_TIMEOUT, (SQLPOINTER)5, 0);
-	_retcode = SQLConnect(_hdbc, (SQLWCHAR*)L"GSProject", SQL_NTS, (SQLWCHAR*)NULL, 0, NULL, 0);
-	_retcode = SQLAllocHandle(SQL_HANDLE_STMT, _hdbc, &_hstmt);
+	SQLSetConnectAttr(m_hdbc, SQL_LOGIN_TIMEOUT, (SQLPOINTER)5, 0);
+	m_retcode = SQLConnect(m_hdbc, (SQLWCHAR*)L"GSProject", SQL_NTS, (SQLWCHAR*)NULL, 0, NULL, 0);
+	m_retcode = SQLAllocHandle(SQL_HANDLE_STMT, m_hdbc, &m_hstmt);
 
-	_retcode = SQLExecDirect(_hstmt, (SQLWCHAR*)L"", SQL_NTS);					//tw
-	if (_retcode == SQL_SUCCESS || _retcode == SQL_SUCCESS_WITH_INFO)
+	m_retcode = SQLExecDirect(m_hstmt, (SQLWCHAR*)L"", SQL_NTS);					//tw
+	if (m_retcode == SQL_SUCCESS || m_retcode == SQL_SUCCESS_WITH_INFO)
 		return true;
 
 	else {
-		display_error(_hstmt, SQL_HANDLE_STMT, _retcode);
+		display_error(m_hstmt, SQL_HANDLE_STMT, m_retcode);
 		return false;
 	}
 }
 
 void DBConnect::Clear()
 {
-	if (_hstmt != SQL_NULL_HANDLE)
+	if (m_hstmt != SQL_NULL_HANDLE)
 	{
-		SQLCancel(_hstmt);
-		SQLFreeHandle(SQL_HANDLE_STMT, _hstmt);
-		_hstmt = SQL_NULL_HANDLE;
+		SQLCancel(m_hstmt);
+		SQLFreeHandle(SQL_HANDLE_STMT, m_hstmt);
+		m_hstmt = SQL_NULL_HANDLE;
 	}
-	if (_hdbc != SQL_NULL_HANDLE)
+	if (m_hdbc != SQL_NULL_HANDLE)
 	{
-		SQLDisconnect(_hdbc);
-		SQLFreeHandle(SQL_HANDLE_DBC, _hdbc);
+		SQLDisconnect(m_hdbc);
+		SQLFreeHandle(SQL_HANDLE_DBC, m_hdbc);
 	}
-	SQLFreeHandle(SQL_HANDLE_ENV, _henv);
+	SQLFreeHandle(SQL_HANDLE_ENV, m_henv);
 }
 
 void DBConnect::Fetch()
 {
 	for (int i = 0; ; i++) {
-		_retcode = SQLFetch(_hstmt);
-		if (_retcode == SQL_ERROR)
+		m_retcode = SQLFetch(m_hstmt);
+		if (m_retcode == SQL_ERROR)
 			std::cout << "Error" << std::endl;
-		else if (_retcode == SQL_SUCCESS || _retcode == SQL_SUCCESS_WITH_INFO)
+		else if (m_retcode == SQL_SUCCESS || m_retcode == SQL_SUCCESS_WITH_INFO)
 			continue;
 		else
 			break;
 	}
 	std::cout << "Finish" << std::endl;
-	SQLFreeStmt(_hstmt, SQL_CLOSE);
+	SQLFreeStmt(m_hstmt, SQL_CLOSE);
 }
 
 bool DBConnect::BindCol()
@@ -104,7 +104,7 @@ bool DBConnect::BindCol()
 	//_retcode = SQLBindCol(_hstmt, 4, SQL_C_SHORT, &u_level, 0, &l_level);
 	//_retcode = SQLBindCol(_hstmt, 5, SQL_C_SHORT, &u_posX, 0, &l_posX);
 	//_retcode = SQLBindCol(_hstmt, 6, SQL_C_SHORT, &u_posY, 0, &l_posY);
-	if (_retcode != SQL_SUCCESS && _retcode != SQL_SUCCESS_WITH_INFO)
+	if (m_retcode != SQL_SUCCESS && m_retcode != SQL_SUCCESS_WITH_INFO)
 		return false;
 	return true;
 }
@@ -121,32 +121,32 @@ bool DBConnect::Login(char* name, Player& player)
 	//tw
 	//_retcode = SQLExecDirect(_hstmt, (SQLWCHAR*)L"SELECT _name, _exp, _hp, _level, _posx, _posy FROM [GameServerTermProject].[dbo].[user_table]",SQL_NTS);
 
-	if (_retcode != SQL_SUCCESS && _retcode != SQL_SUCCESS_WITH_INFO){
-		display_error(_hstmt, SQL_HANDLE_STMT, _retcode);
+	if (m_retcode != SQL_SUCCESS && m_retcode != SQL_SUCCESS_WITH_INFO){
+		display_error(m_hstmt, SQL_HANDLE_STMT, m_retcode);
 		return false;
 	}
 
 	if (!BindCol())
 		return false;
 
-	while ((_retcode = SQLFetch(_hstmt)) != SQL_NO_DATA)
+	while ((m_retcode = SQLFetch(m_hstmt)) != SQL_NO_DATA)
 	{
 		for (int i = 0; i < NAME_SIZE; ++i)
-			if (u_name[i] == ' ')
-				u_name[i] = '\0';
+			if (m_uName[i] == ' ')
+				m_uName[i] = '\0';
 
-		if (std::strcmp(name, (char*)u_name) == 0)
+		if (std::strcmp(name, (char*)m_uName) == 0)
 		{
-			player._hp = u_hp;
-			player._exp = u_exp;
-			player._x = u_posX;
-			player._y = u_posY;
-			player._level = u_level;
-			SQLFreeStmt(_hstmt, SQL_CLOSE);
+			player.m_iHp = m_uHp;
+			player.m_iExp = m_uExp;
+			player.m_fX = m_uPosX;
+			player.m_fY = m_uPosY;
+			player.m_iLevel = m_uLevel;
+			SQLFreeStmt(m_hstmt, SQL_CLOSE);
 			return true;
 		}
 	}
-	SQLFreeStmt(_hstmt, SQL_CLOSE);
+	SQLFreeStmt(m_hstmt, SQL_CLOSE);
 	return false;
 }
 
@@ -157,14 +157,14 @@ bool DBConnect::AddPlayer(Player& player)
 	//	L"INSERT INTO [GameServerTermProject].[dbo].[user_table] (_name, _exp, _hp, _level, _posx, _posy) VALUES (N'%S', %d, %d, %d, %d, %d)",
 	//	player._name, player._exp, player._hp, player._level, player._x, player._y);
 
-	_retcode = SQLExecDirect(_hstmt, (SQLWCHAR*)query, SQL_NTS);
+	m_retcode = SQLExecDirect(m_hstmt, (SQLWCHAR*)query, SQL_NTS);
 
-	if (_retcode != SQL_SUCCESS && _retcode != SQL_SUCCESS_WITH_INFO) {
-		display_error(_hstmt, SQL_HANDLE_STMT, _retcode);
-		SQLFreeStmt(_hstmt, SQL_CLOSE);
+	if (m_retcode != SQL_SUCCESS && m_retcode != SQL_SUCCESS_WITH_INFO) {
+		display_error(m_hstmt, SQL_HANDLE_STMT, m_retcode);
+		SQLFreeStmt(m_hstmt, SQL_CLOSE);
 		return false;
 	}
 
-	SQLFreeStmt(_hstmt, SQL_CLOSE);
+	SQLFreeStmt(m_hstmt, SQL_CLOSE);
 	return true;
 }

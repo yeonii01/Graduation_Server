@@ -19,18 +19,14 @@ public:
 	void send_move_object_packet(Player& player);
 	void send_chat_packet(int c_id, char* mess);
 	void send_state_change_packet();
-
 public:
-	int			_x, _y;
-	char		_name[NAME_SIZE];
-	int			_hp;
-	int			_exp;
-	int			_level;
-	int			_last_move_time;
-	int			_sector_x, _sector_y;
-	P_STATE		_Pstate;
-	S_STATE		_Sstate;
-	std::mutex  _s_lock;
-	std::vector	<int> _near;
+	float				m_fX, m_fY;
+	char				m_cName[NAME_SIZE];
+	int					m_iHp;
+	int					m_iExp;
+	int					m_iLevel;
+	int					m_iLast_move_time;
+	P_STATE				m_pState;
+	S_STATE				m_sState;
+	std::mutex			m_sLock;
 };
-

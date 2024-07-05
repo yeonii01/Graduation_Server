@@ -1,7 +1,7 @@
 #pragma once
 #include "stdafx.h"
 
-enum EVENT_TYPE { EV_TARGET_MOVE, EV_HEAL, EV_ATTACK };
+enum EVENT_TYPE { EV_RANDOM_MOVE, EV_TARGET_MOVE, EV_HEAL, EV_ATTACK };
 class EVENT {
 public:
 	int obj_id;

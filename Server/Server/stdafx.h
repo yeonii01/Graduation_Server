@@ -31,8 +31,3 @@
 #pragma comment(lib, "lua54.lib")
 
 using namespace std::chrono;
-
-static const int sector_size = 15;
-static const int sector_w = W_WIDTH / sector_size;
-static const int sector_h = W_HEIGHT / sector_size;
-static const int view_range = 7;

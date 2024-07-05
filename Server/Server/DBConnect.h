@@ -21,23 +21,23 @@ public:
 	bool			Login(char* Name, Player& player);
 	bool			AddPlayer(Player& player);
 private:
-	static thread_local SQLHENV			_henv;
-	static thread_local SQLHDBC			_hdbc;
-	static thread_local SQLRETURN		_retcode;
-	static thread_local SQLHSTMT		_hstmt;
+	static thread_local SQLHENV			m_henv;
+	static thread_local SQLHDBC			m_hdbc;
+	static thread_local SQLRETURN		m_retcode;
+	static thread_local SQLHSTMT		m_hstmt;
 
-	SQLCHAR					u_name[20];
-	SQLSMALLINT				u_level;
-	SQLSMALLINT				u_hp;
-	SQLSMALLINT				u_exp;
-	SQLSMALLINT				u_posX;
-	SQLSMALLINT				u_posY;
+	SQLCHAR					m_uName[20];
+	SQLSMALLINT				m_uLevel;
+	SQLSMALLINT				m_uHp;
+	SQLSMALLINT				m_uExp;
+	SQLSMALLINT				m_uPosX;
+	SQLSMALLINT				m_uPosY;
 
-	SQLLEN					l_name;
-	SQLLEN					l_level;
-	SQLLEN					l_hp;
-	SQLLEN					l_exp;
-	SQLLEN					l_posX;
-	SQLLEN					l_posY;
+	SQLLEN					m_lName;
+	SQLLEN					m_lLevel;
+	SQLLEN					m_lHp;
+	SQLLEN					m_lExp;
+	SQLLEN					m_lPosX;
+	SQLLEN					m_lPosY;
 };
 

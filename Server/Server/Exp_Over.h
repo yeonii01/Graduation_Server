@@ -1,7 +1,7 @@
 #pragma once
 #include "stdafx.h"
 
-enum COMP_TYPE { C_ACCEPT, C_RECV, C_SEND, C_TARGET_MOVE};
+enum COMP_TYPE { C_ACCEPT, C_RECV, C_SEND, C_RANDOM_MOVE, C_TARGET_MOVE};
 class Exp_Over
 {
 public:
@@ -9,9 +9,9 @@ public:
 	Exp_Over(unsigned char* packet, int packet_size);
 
 public:
-	WSAOVERLAPPED _over;
-	WSABUF _wsabuf;
-	char _buf[CHAT_SIZE];
-	COMP_TYPE _comp_type;
-	int _ai_target_obj;
+	WSAOVERLAPPED m_wOver;
+	WSABUF m_wBuf;
+	char m_cBuf[CHAT_SIZE];
+	COMP_TYPE m_cType;
+	int m_iTarget_obj;
 };

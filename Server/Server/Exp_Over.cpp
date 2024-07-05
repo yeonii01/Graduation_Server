@@ -2,18 +2,18 @@
 
 Exp_Over::Exp_Over()
 {
-	_wsabuf.len = CHAT_SIZE;
-	_wsabuf.buf = _buf;
-	_comp_type = C_RECV;
-	memset(_buf, 0, sizeof(_buf));
-	ZeroMemory(&_over, sizeof(_over));
+	m_wBuf.len = CHAT_SIZE;
+	m_wBuf.buf = m_cBuf;
+	m_cType = C_RECV;
+	memset(m_cBuf, 0, sizeof(m_cBuf));
+	ZeroMemory(&m_wOver, sizeof(m_wOver));
 }
 
 Exp_Over::Exp_Over(unsigned char* packet, int packet_size)
 {
-	_wsabuf.len = packet_size;
-	_wsabuf.buf = _buf;
-	ZeroMemory(&_over, sizeof(_over));
-	_comp_type = C_SEND;
-	memcpy(_buf, packet, packet_size);
+	m_wBuf.len = packet_size;
+	m_wBuf.buf = m_cBuf;
+	ZeroMemory(&m_wOver, sizeof(m_wOver));
+	m_cType = C_SEND;
+	memcpy(m_cBuf, packet, packet_size);
 }

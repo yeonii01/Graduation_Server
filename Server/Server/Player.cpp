@@ -2,15 +2,14 @@
 
 Player::Player()
 {
-	_x = 0, _y= 0;
-	_name[0] = 0;
-	_hp = 100;
-	_exp = 0;
-	_level = 1;
-	_last_move_time = 0;
-	_sector_x = -1, _sector_y = -1;
-	_Pstate = P_IDLE;
-	_Sstate = ST_FREE;
+	m_fX = 0, m_fY= 0;
+	m_cName[0] = 0;
+	m_iHp = 100;
+	m_iExp = 0;
+	m_iLevel = 1;
+	m_iLast_move_time = 0;
+	m_pState = P_IDLE;
+	m_sState = ST_FREE;
 }
 
 Player::~Player()
@@ -20,11 +19,11 @@ Player::~Player()
 void Player::send_login_info_packet()
 {
 	SC_LOGIN_INFO_PACKET p;
-	p.id = _id;
+	p.id = m_iId;
 	p.size = sizeof(SC_LOGIN_INFO_PACKET);
 	p.type = SC_LOGIN_INFO;
-	p.x = _x;
-	p.y = _y;
+	p.x = m_fX;
+	p.y = m_fY;
 	do_send(&p, p.size);
 }
 
@@ -39,12 +38,12 @@ void Player::send_login_fail_packet()
 void Player::send_add_object_packet(Player& player)
 {
 	SC_ADD_OBJECT_PACKET p;
-	p.id = player._id;
-	strcpy_s(p.name, player._name);
+	p.id = player.m_iId;
+	strcpy_s(p.name, player.m_cName);
 	p.size = sizeof(SC_ADD_OBJECT_PACKET);
 	p.type = SC_ADD_OBJECT;
-	p.x = player._x;
-	p.y = player._y;
+	p.x = player.m_fX;
+	p.y = player.m_fY;
 	do_send(&p, p.size);
 }
 
@@ -60,12 +59,12 @@ void Player::send_remove_object_packet(int c_id)
 void Player::send_move_object_packet(Player& player)
 {
 	SC_MOVE_OBJECT_PACKET p;
-	p.id = player._id;
+	p.id = player.m_iId;
 	p.size = sizeof(SC_MOVE_OBJECT_PACKET);
 	p.type = SC_MOVE_OBJECT;
-	p.x = player._x;
-	p.y = player._y;
-	p.move_time = player._last_move_time;
+	p.x = player.m_fX;
+	p.y = player.m_fY;
+	p.move_time = player.m_iLast_move_time;
 	do_send(&p, p.size);
 }
 

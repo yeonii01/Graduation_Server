@@ -85,34 +85,15 @@ bool GameServer::DBInit(DBConnect* db)
 	return true;
 }
 
-void GameServer::LoadMap(const char* filename, int maptile[W_WIDTH][W_HEIGHT])
+void GameServer::LoadMap()
 {
-	std::ifstream file(filename);
-	if (file.is_open())
-	{
-		std::string line;
-		int i = 0;
-		while (std::getline(file, line) && i < W_WIDTH)
-		{
-			std::istringstream ss(line);
-			for (int j = 0; j < W_HEIGHT; ++j)
-			{
-				ss >> maptile[i][j];
-			}
-			++i;
-		}
-		file.close();
-	}
-	else
-	{
-		std::cerr << "파일을 열 수 없습니다: " << filename << std::endl;
-	}
+
 }
 
-void GameServer::InitNpc(std::array<Npc, MAX_NPC>& npcs, int maptile[W_WIDTH][W_HEIGHT])
+void GameServer::InitNpc(std::array<Npc, MAX_NPC>& npcs)
 {
 	for (int i = 0; i < MAX_NPC; ++i)
 	{
-		npcs[i].Initialize(i,maptile);
+		npcs[i].Initialize(i);
 	}
 }

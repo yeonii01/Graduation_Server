@@ -26,7 +26,7 @@ public:
 	static void RegisterSocket(HANDLE& iocp, SOCKET& socket, int id);
 
 	static bool DBInit(DBConnect* db);
-	static void LoadMap(const char* filename, int maptile[W_WIDTH][W_HEIGHT]);
-	static void InitNpc(std::array<Npc, MAX_NPC>& npcs, int maptile[W_WIDTH][W_HEIGHT]);
+	static void LoadMap();
+	static void InitNpc(std::array<Npc, MAX_NPC>& npcs);
 
 };
